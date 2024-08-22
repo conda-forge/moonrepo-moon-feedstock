@@ -16,6 +16,7 @@ github:
 provider:
   linux_64: azure
   linux_aarch64: None
+  linux_ppc64le: default
   osx_64: azure
   osx_arm64: azure
   win_64: azure
