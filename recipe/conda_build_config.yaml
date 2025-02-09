@@ -1,0 +1,11 @@
+c_stdlib:
+  - sysroot                    # [linux]
+  - macosx_deployment_target   # [osx]
+  - vs                         # [win]
+
+c_stdlib_version:              # [osx]
+  - 11.0                       # [osx]
+
+macos_machine:                 # [osx]
+  - x86_64-apple-darwin14.7.2  # [osx and x86_64]
+  - arm64-apple-darwin14.7.2   # [osx and arm64]
