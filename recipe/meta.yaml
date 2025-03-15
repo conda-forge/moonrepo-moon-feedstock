@@ -1,5 +1,5 @@
 {% set name = "moonrepo-moon" %}
-{% set version = "1.33.0" %}
+{% set version = "1.33.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/moonrepo/moon/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 26c85879372d698cb051736fd390b3190973215c9e55d4a8ed7fe93109dc73e2
+  sha256: 074b959b4fab0cc819e3a595260707d314a052f916bb23f825f3d2b28d5a374c
 
 build:
   number: 0
