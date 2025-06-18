@@ -1,5 +1,6 @@
 :: strip debug symbols
-SET RUSTFLAGS=-C strip=symbols
+SET RUSTFLAGS=-C linker=lld -C strip=symbols
+SET CARGO_BUILD_JOBS=1
 
 :: check licenses
 cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
