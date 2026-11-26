@@ -14,5 +14,7 @@ macos_machine:
 - x86_64-apple-darwin14.7.2
 rust_compiler:
 - rust
+rust_compiler_version:
+- '1.99'
 target_platform:
 - osx-64
