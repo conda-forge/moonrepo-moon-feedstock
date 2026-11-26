@@ -9,3 +9,8 @@ c_stdlib_version:              # [osx]
 macos_machine:                 # [osx]
   - x86_64-apple-darwin14.7.2  # [osx and x86_64]
   - arm64-apple-darwin14.7.2   # [osx and arm64]
+
+# git-url-parse 0.6.0 fails on rust 1.100 (E0038 dyn Parser); fixed upstream in
+# tjtelan/git-url-parse-rs#87 but unreleased. Drop once moon picks up a fixed release.
+rust_compiler_version:
+  - 1.99
